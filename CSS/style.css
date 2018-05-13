@@ -1,0 +1,230 @@
+body, 
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.about-me, .featured-work {
+  order: 10;
+}
+
+@media screen and (max-width: 750px) {
+  .header img{
+    display: none;
+  }
+  .title {
+    float: left !important;
+    text-align: left !important;
+    min-width: 100%;
+  }
+  .title h1 {
+    display: none;
+  }
+  .about-me-info {
+    min-width: 90%;
+  }
+  .about-me-info section {
+    margin-bottom: 10px !important;
+  }  
+  .about-me-info section h2{
+    font-size: x-large;
+  } 
+  .work-img-1 img,  
+  .work-img-2 img,
+  .work-img-3 img {
+    min-width: 90%;
+    margin-bottom: 10px !important;
+    float: unset !important;
+  }  
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 1150px) {
+  .header img{
+    display: none;
+  }
+  .title {
+  float: left !important;
+  text-align: left !important;
+  min-width: 100%;
+  }
+  .title h1 {
+  font-size: xx-large;
+  }
+  .about-me {
+    max-width: 50%;
+    float: left;
+    margin: 0 !important;
+    order: 1;
+  }
+  .about-me-info {
+    min-width: 90% 
+  }
+  .about-me-info section{
+    min-width: 90%;
+    margin-bottom: 10px !important;
+  }
+  .about-me-info section h2{
+    font-size: x-large;
+  }
+  .featured-work {
+    max-width: 50%;
+    float: right;
+    text-align: center;
+    margin: 0 !important;
+    padding-right: 10px;
+    order: 0;
+  }
+  .work-img-1 img,  
+  .work-img-2 img,
+  .work-img-3 img {
+    min-width: 100%;
+    margin-bottom: 10px !important;
+    float: unset !important;
+  } 
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+nav,
+.container-fluid .navbar-brand,
+.container-fluid {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.nav-item i {
+  color: rgba(63, 81, 181, 0.7) !important;
+}
+
+.main {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  display: block;
+  position: relative;
+  border-bottom: 2px solid #7d97ad;
+  margin-bottom: 20px;
+}
+
+.header img {
+  max-width: 20%;
+  float: left;
+  padding: 10px;
+}
+
+.title {
+  max-width: 70%;
+  float: right;
+  text-align: right;
+}
+
+h1 {
+  font-size: 55px;
+  color: #2d3c49;
+  margin-bottom: 0px;
+}
+
+.about-me {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 20px;
+  background-image: url("https://media-public.canva.com/MACNTPcaBr8/1/screen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 475px;
+}
+
+.about-me-info {
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.about-me-info h2 {
+  text-align: center;
+}
+
+.about-me-info section {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.featured-work {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20px;
+}
+
+.featured-work-content {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.featured-work h5 {
+  width: 100%;
+  color: #7d97ad;
+  float: left;
+}
+
+.featured-work-content img {
+  border: 1px solid #7d97ad;
+}
+
+.work-img-1 img {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  float: left;
+}
+
+.work-img-2 img {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  float: right;
+}
+
+.work-img-3 img {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  max-height: 200px;
+  background-color: rgba(63, 81, 181, 0.7);
+  box-shadow: 5px 5px 20px;
+  text-align: center;
+}
